@@ -25,5 +25,15 @@ public class InfracoesService {
 	public List<Infracoes> listarInfracoes() {
 		return infracoesRepository.lista();
 	}
+
+	public void salva(Infracoes a) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void excluir(Integer id) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
