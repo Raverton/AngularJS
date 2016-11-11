@@ -25,7 +25,7 @@ public class ProprietarioRepository {
 	}
 
 	public List<Proprietario> lista() {
-		return this.manager.createQuery("from propietario", Proprietario.class)
+		return this.manager.createQuery("select a from proprietario a", Proprietario.class)
 				.getResultList();
 	}
 
